@@ -42,9 +42,9 @@ body {
   align-items: flex-start;
   padding: 2rem;
   width: 100%;
-  max-width: 1200px; /* keeps content from stretching too wide on large screens */
-  margin: 0 auto; /* centers container */
-  gap: 1rem; /* spacing between children */
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 1rem;
 }
 
 .product-container {
@@ -71,23 +71,21 @@ body {
   direction: rtl;
 }
 
-
 .svg-arrow {
-    display: inline-block;
-    margin: 0 8px; /* spacing */
-    cursor: pointer;
-    transition: transform 0.2s ease, color 0.2s ease;
-  }
+  display: inline-block;
+  margin: 0 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
 
-  /* Left arrow color */
-  .svg-arrow.left {
-    color: rgba(255, 255, 255, 1); /* e.g., red/orange */
-  }
+.svg-arrow.left {
+  color: rgba(255, 255, 255, 1);
+}
 
-  /* Right arrow color */
-  .svg-arrow.right {
-    color: rgba(113, 113, 113, 1); /* e.g., teal */
-  }
+.svg-arrow.right {
+  color: rgba(113, 113, 113, 1);
+}
+
 .see-all-text {
   font-size: var(--fs-sm);
   color: var(--text-light);
@@ -97,6 +95,7 @@ body {
   font-size: var(--fs-md);
   color: var(--text-light);
 }
+
 .line {
   width: 2.5rem;
   max-width: 600px;
@@ -224,7 +223,6 @@ body {
   margin-top: 4rem;
 }
 
-/* ---------- Responsive ---------- */
 @media (min-width: 600px) {
   .card-container,
   .product-cards {
