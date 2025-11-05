@@ -38,12 +38,6 @@ body {
   line-height: 1.45;
 }
 
-body {
-  padding-inline: clamp(1rem, 4.5vw, 1.5rem);
-  padding-block: var(--space-md);
-  font-size: 14px;
-}
-
 .main-container {
   display: flex;
   flex-direction: column;
@@ -139,10 +133,34 @@ body {
   }
 }
 
-[role="list"] {
-  display: contents;
+@media (min-width: 650px) and (max-width: 1199px) {
+  body {
+    background: url("/assets/svg/tadbir/tablet-logo.svg") center center
+      no-repeat;
+    background-size: 85%;
+    min-height: 100vh;
+  }
+
+  .main-container,
+  .header-main-container,
+  .logo-container,
+  .companies-column {
+    display: none !important;
+  }
 }
 
-img[alt=""] {
-  aria-hidden: true;
+@media (min-width: 1200px) {
+  body {
+    background: url("/assets/svg/tadbir/desktop-logo.svg") center center
+      no-repeat;
+    background-size: 70%;
+    min-height: 100vh;
+  }
+
+  .main-container,
+  .header-main-container,
+  .logo-container,
+  .companies-column {
+    display: none !important;
+  }
 }
