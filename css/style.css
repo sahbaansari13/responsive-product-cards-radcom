@@ -164,7 +164,7 @@ body {
   border-radius: var(--radius);
 }
 
-.brand-card-background-1 {
+.brand-card-background-left {
   position: absolute;
   background-color: rgb(255, 255, 255);
   border-radius: var(--radius);
@@ -174,7 +174,7 @@ body {
   right: 2rem;
 }
 
-.brand-card-background-2 {
+.brand-card-background-right {
   position: absolute;
 
   background-color: rgb(255, 255, 255);
@@ -185,7 +185,7 @@ body {
   right: -20px;
 }
 
-.brand-card-background-3 {
+.brand-card-background-bottom {
   position: absolute;
   background-color: var(--primary-color);
   border-radius: 23px;
