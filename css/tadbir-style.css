@@ -1,0 +1,148 @@
+@font-face {
+  font-family: "Iranian Sans";
+  src: url("/assets/fonts/IranianSans.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --bg: #dfdad5;
+  --green: #006960;
+  --text: #313131;
+  --space-sm: clamp(0.5rem, 1.4vw, 1rem);
+  --space-md: clamp(1rem, 2.6vw, 1.5rem);
+  --radius: clamp(0.5rem, 1.6vw, 1.25rem);
+  --bp-mobile-600: 600px;
+  --bp-tablet: 768px;
+  --bp-desktop: 1200px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  background: var(--bg);
+  font-family: "Iranian Sans", system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial;
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.45;
+}
+
+body {
+  padding-inline: clamp(1rem, 4.5vw, 1.5rem);
+  padding-block: var(--space-md);
+  font-size: 14px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-md);
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
+.header-main-container {
+  width: 100%;
+  background: transparent;
+  padding: calc(var(--space-md) * 0.01);
+  text-align: center;
+  font-weight: 700;
+  color: var(--text);
+  border-radius: var(--radius);
+  font-size: clamp(1rem, 4.5vw, 1.6rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-container {
+  width: 70%;
+  max-width: 520px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: calc(var(--space-sm) * 0.6);
+  border-radius: var(--radius);
+  background: transparent;
+}
+
+.logo-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.companies-column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  align-items: stretch;
+}
+
+.companies-block {
+  background: transparent;
+  border-radius: var(--radius);
+  padding: var(--space-sm);
+}
+
+.companies-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-right: 0.9rem;
+  gap: 1rem;
+  color: var(--green);
+  font-weight: 700;
+  margin-bottom: calc(var(--space-sm) * 0.6);
+}
+
+.companies-grid {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: 1fr;
+  gap: calc(var(--space-sm) * 0.6);
+  align-items: center;
+  justify-items: center;
+}
+
+.companies-grid img {
+  width: min(92%, 18rem);
+  height: auto;
+  object-fit: contain;
+  display: block;
+  padding: 0.45rem;
+  background: transparent;
+  border-radius: 0.5rem;
+}
+
+@media (min-width: 600px) {
+  .companies-column {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: var(--space-md);
+    width: 100%;
+  }
+}
+
+[role="list"] {
+  display: contents;
+}
+
+img[alt=""] {
+  aria-hidden: true;
+}

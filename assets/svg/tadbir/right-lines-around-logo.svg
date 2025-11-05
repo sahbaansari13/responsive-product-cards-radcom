@@ -1,0 +1,14 @@
+<svg width="140" height="446" viewBox="0 0 140 446" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M140 357.5H123.88C107.587 357.5 92.1691 351.126 81.9573 340.15L32 286.5" stroke="#00A99A" stroke-linejoin="round"/>
+<path d="M140 89.0581H124.219C108.267 89.0581 93.1733 95.1127 83.176 105.539L34.2676 156.5" stroke="#00A99A" stroke-linejoin="round"/>
+<path d="M140 445.5H85.1418C73.8403 445.5 63.1464 436.95 56.0635 422.227L9 324.5" stroke="#00A99A" stroke-linejoin="round"/>
+<path d="M140 0.5H85.5606C74.3453 0.5 63.7331 8.83772 56.7042 23.1956L10 118.5" stroke="#00A99A" stroke-linejoin="round"/>
+<path d="M140 267.625H101.055C93.0317 267.625 85.4399 266.132 80.4115 263.562L47 246.5" stroke="#00A99A" stroke-linejoin="round"/>
+<path d="M140 180.5H101.055C93.0317 180.5 85.4399 181.993 80.4115 184.563L47 201.625" stroke="#00A99A" stroke-linejoin="round"/>
+<path d="M4.5 114.5C4.5 117.814 7.18629 120.5 10.5 120.5C13.8137 120.5 16.5 117.814 16.5 114.5C16.5 111.186 13.8137 108.5 10.5 108.5C7.18629 108.5 4.5 111.186 4.5 114.5Z" fill="#00A99A"/>
+<circle cx="6" cy="321.5" r="6" transform="rotate(180 6 321.5)" fill="#00A99A"/>
+<circle cx="6" cy="6" r="6" transform="matrix(-1 0 0 1 41 150.5)" fill="#00A99A"/>
+<circle cx="29" cy="284.5" r="6" transform="rotate(180 29 284.5)" fill="#00A99A"/>
+<circle cx="6" cy="6" r="6" transform="matrix(-1 0 0 1 50 196.5)" fill="#00A99A"/>
+<circle cx="42" cy="245.5" r="6" transform="rotate(180 42 245.5)" fill="#00A99A"/>
+</svg>
